@@ -8,8 +8,9 @@
   name: "light";
   default: true;
   --color-primary: oklch(76% 0.06 82);
-    --color-primary-content: oklch(45% 0.09 82);
+  --color-primary-content: oklch(45% 0.09 82);
   --color-secondary: oklch(94% 0.02 35);
+  --color-secondary-content: oklch(66% 0.06 82);
 }
 
 * {

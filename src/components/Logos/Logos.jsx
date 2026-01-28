@@ -2,7 +2,8 @@ import React from 'react';
 
 const Logos = () => {
     return (
-        <div>
+        <div className='text-4xl tinos-regular  text-secondary-content'>
+            Auravia
             
         </div>
     );
