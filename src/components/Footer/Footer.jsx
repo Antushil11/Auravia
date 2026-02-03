@@ -1,7 +1,14 @@
 import React from "react";
 import Logos from "../Logos/Logos";
 import Container from "../../Container/Container";
-
+import {
+  FaDiscord,
+  FaFacebook,
+  FaInstagramSquare,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
+import { IoLogoTiktok } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -47,6 +54,20 @@ const Footer = () => {
             <a className="link link-hover">Terms of use</a>
             <a className="link link-hover">Privacy policy</a>
             <a className="link link-hover">Cookie policy</a>
+          </nav>
+          <nav>
+            <h6 className="footer-title">Legal</h6>
+            <a className="link link-hover">Terms of use</a>
+            <a className="link link-hover">Privacy policy</a>
+            <a className="link link-hover">Cookie policy</a>
+            <div className="flex gap-2">
+              <FaFacebook size={24}/>
+              <FaYoutube size={24}/>
+              <FaTwitter size={24}/>
+              <IoLogoTiktok size={24} />
+              <FaInstagramSquare size={24}/>
+              <FaDiscord size={24}/>
+            </div>
           </nav>
         </footer>
       </div>
