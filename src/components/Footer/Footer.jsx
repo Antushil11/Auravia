@@ -54,8 +54,8 @@ const Footer = () => {
             <a className="link link-hover">Terms of use</a>
             <a className="link link-hover">Privacy policy</a>
             <a className="link link-hover">Cookie policy</a>
-            <div className="flex gap-2">
-              <FaFacebook size={24}/>
+            <div className="flex gap-2 text-primary-content ">
+             <FaFacebook size={24}/>
               <FaYoutube size={24}/>
               <FaTwitter size={24}/>
               <IoLogoTiktok size={24} />
