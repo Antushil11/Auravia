@@ -63,6 +63,12 @@ const Footer = () => {
               <FaDiscord size={24}/>
             </div>
           </nav>
+          <nav>
+            <form action="">
+              <label className="footer-title">Email</label>
+              <input className="mt-2 p-2 w-full" placeholder="enter you email" type="email" name="Email" id="" />
+            </form>
+          </nav>
         </footer>
       </div>
     </Container>
