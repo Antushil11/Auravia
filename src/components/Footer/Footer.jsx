@@ -55,18 +55,36 @@ const Footer = () => {
             <a className="link link-hover">Privacy policy</a>
             <a className="link link-hover">Cookie policy</a>
             <div className="flex gap-2 text-primary-content ">
-             <FaFacebook size={24}/>
-              <FaYoutube size={24}/>
-              <FaTwitter size={24}/>
-              <IoLogoTiktok size={24} />
-              <FaInstagramSquare size={24}/>
-              <FaDiscord size={24}/>
+              <a href="https://www.facebook.com/"  className="hover:text-primary">
+                <FaFacebook size={24} />
+              </a>
+              <a href="https://www.youtube.com/" className="hover:text-primary">
+                <FaYoutube size={24} />
+              </a>
+              <a href="https://x.com/"  className="hover:text-primary">
+                <FaTwitter size={24} />
+              </a>
+              <a href="https://www.tiktok.com/404?fromUrl=/en%22" className="hover:text-primary">
+                <IoLogoTiktok size={24} />
+              </a>
+              <a href="https://www.instagram.com/" className="hover:text-primary">
+                <FaInstagramSquare size={24} />
+              </a>
+              <a href="https://discord.com/" className="hover:text-primary">
+                <FaDiscord size={24} />
+              </a>
             </div>
           </nav>
           <nav>
             <form action="">
               <label className="footer-title">Email</label>
-              <input className="mt-2 p-2 w-full" placeholder="enter you email" type="email" name="Email" id="" />
+              <input
+                className="mt-2 p-2 w-full rounded-xl border border-primary"
+                placeholder="enter you email"
+                type="email"
+                name="Email"
+                id=""
+              />
             </form>
           </nav>
         </footer>
