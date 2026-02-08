@@ -13,7 +13,7 @@ import { IoLogoTiktok } from "react-icons/io5";
 const Footer = () => {
   return (
     <Container>
-      <div>
+      <div className="bg-[#f3ebe8]">
         <footer className="footer sm:footer-horizontal bg-base-100 shadow-sm text-base-content p-10">
           <aside>
             <Logos></Logos>
