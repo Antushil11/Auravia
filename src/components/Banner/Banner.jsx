@@ -8,10 +8,18 @@ const Banner = () => {
            
               
               <div>
-               <img className='max-h-[600px] w-full' src="../../../public/image/luxurious skincare a.png" alt="" />
-               <h1>Auravia</h1>
+               <div className=''>
+                <img className='max-h-60 w-96' src="../../../public/image/product 1 .png" alt="" />
+                <img className='max-h-60 w-96' src="../../../public/image/product 2.png" alt="" />
+                <img className='max-h-60 w-96' src="../../../public/image/product 3.png" alt="" />
+                <img className='max-h-60 w-96' src="../../../public/image/product 4.png" alt="" />
+                <img className='max-h-60 w-96' src="../../../public/image/flower.png" alt="" />
+               </div>
+               <div>
+                <h1>Auravia</h1>
                <h4>Glow with Elegance</h4>
                <p>Discover Luxurious Skincare & Beauty Products</p>
+               </div>
             
               </div>
         </div>
