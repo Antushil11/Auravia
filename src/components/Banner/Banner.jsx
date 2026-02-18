@@ -5,10 +5,12 @@ const Banner = () => {
   return (
     <Container>
       <div className="flex items-center justify-center border-2 border-amber-800">
-        <div className="border-2 border-amber-800 h-96 flex flex-col justify-center">
-          <h1>Auravia</h1>
+        <div className="border-2 border-amber-800 h-96 flex flex-col items-center justify-center">
+          <h1 className="text-4xl ">Auravia</h1>
           <h4>Glow with Elegance</h4>
           <p>Discover Luxurious Skincare & Beauty Products</p>
+
+          <button className="btn">Shop Now</button>
         </div>
 
         
