@@ -16,18 +16,18 @@ const Banner = () => {
         
           <div className="">
             <img 
-              className="max-h-60 w-96 z-60 ml-96 border-2 border-amber-800"
+              className="max-h-60 scale-z-100  border-2  border-amber-800"
               src="../../../public/image/flower.png"
               alt=""
             />
-            <div className="flex items-end">
+            <div className="flex items-end z-60">
               <img
-                className="max-h-960 w-96 border-2 border-amber-800"
+                className="max-h-960 max-w-96 border-2 border-amber-800"
                 src="../../../public/image/product 1 .png"
                 alt=""
               />
               <img
-                className="max-h-80 w-96 border-2 border-amber-800"
+                className="max-h-80 max-w-96 border-2 border-amber-800"
                 src="../../../public/image/product 2.png"
                 alt=""
               />
