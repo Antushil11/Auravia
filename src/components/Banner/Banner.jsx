@@ -14,9 +14,9 @@ const Banner = () => {
         </div>
 
         
-          <div className="">
+          <div className="border-2  border-amber-800">
             <img 
-              className="max-h-60 scale-z-100  border-2  border-amber-800"
+              className="h-full z-100 w-full  border-2  border-amber-800"
               src="../../../public/image/flower.png"
               alt=""
             />
