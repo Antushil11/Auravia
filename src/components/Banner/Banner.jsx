@@ -14,25 +14,25 @@ const Banner = () => {
         </div>
 
         
-          <div className="border-2  border-amber-800">
+          <div className="border-2 relative  border-amber-800">
             <img 
-              className="h-full z-100 w-full  border-2  border-amber-800"
+              className="h-full z-80 w-full absolute   border-2  border-amber-800"
               src="../../../public/image/flower.png"
               alt=""
             />
-            <div className="flex items-end z-60">
+            <div className="flex items-end ">
               <img
-                className="max-h-960 max-w-96 border-2 border-amber-800"
+                className="max-h-900 z-100 max-w-96 border-2 border-amber-800"
                 src="../../../public/image/product 1 .png"
                 alt=""
               />
               <img
-                className="max-h-80 max-w-96 border-2 border-amber-800"
+                className="max-h-80 z-100 max-w-96 border-2 border-amber-800"
                 src="../../../public/image/product 2.png"
                 alt=""
               />
               <img
-                className="max-h-80 w-96 border-2 border-amber-800"
+                className="max-h-80 z-100 w-96 border-2 border-amber-800"
                 src="../../../public/image/product 3.png"
                 alt=""
               />
