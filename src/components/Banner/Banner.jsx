@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <Container>
       <div className="flex items-center justify-center gap-40 border-2 border-amber-800">
-        <div className="border-2 border-amber-800 w-[600px] h-96 flex flex-col items-center justify-center">
+        <div className="border-2 border-amber-800 w-full h-96 flex flex-col items-center justify-center">
           <h1 className="text-4xl ">Auravia</h1>
           <h4>Glow with Elegance</h4>
           <p>Discover Luxurious Skincare & Beauty Products</p>
@@ -14,25 +14,25 @@ const Banner = () => {
         </div>
 
         
-          <div className="border-2 relative  border-amber-800">
+          <div className="border-2 relative w-full    border-amber-800">
             <img 
-              className="h-full z-80 w-full absolute   border-2  border-amber-800"
+              className="h-full z-80 w-full absolute  border-2  border-amber-800"
               src="../../../public/image/flower.png"
               alt=""
             />
-            <div className="flex items-end ">
+            <div className="flex items-end relative">
               <img
-                className="max-h-900 z-100 max-w-96 border-2 border-amber-800"
+                className="max-h-900  ml-20 z-100 max-w-80 border-2 border-amber-800"
                 src="../../../public/image/product 1 .png"
                 alt=""
               />
               <img
-                className="max-h-80 z-100 max-w-96 border-2 border-amber-800"
+                className="max-h-80 absolute z-100 max-w-96 border-2 border-amber-800"
                 src="../../../public/image/product 2.png"
                 alt=""
               />
               <img
-                className="max-h-80 z-100 w-96 border-2 border-amber-800"
+                className="max-h-80 absolute ml-40  z-100 w-96 border-2 border-amber-800"
                 src="../../../public/image/product 3.png"
                 alt=""
               />
