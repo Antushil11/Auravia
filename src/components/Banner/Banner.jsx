@@ -5,10 +5,10 @@ const Banner = () => {
   return (
     <Container>
       <div className="md:flex items-center  justify-center gap-40 border-2 border-amber-800">
-        <div className="border-2 border-amber-800 text-center w-full h-96 flex flex-col items-center justify-center">
-          <h1 className="text-4xl ">Auravia</h1>
-          <h4>Glow with Elegance</h4>
-          <p>Discover Luxurious Skincare & Beauty Products</p>
+        <div className="border-2 border-amber-800  w-full h-96 flex flex-col items-center justify-center">
+          <h1 className="text-6xl tinos-regular  text-primary-content ">Auravia</h1>
+          <h4 className="text-4xl tinos-regular">Glow with Elegance</h4>
+          <p className="">Discover Luxurious Skincare & Beauty Products</p>
 
           <button className="btn">Shop Now</button>
         </div>
@@ -30,12 +30,12 @@ const Banner = () => {
               />
               
               <img
-                className="max-h-11/12 absolute  z-100 max-w-96  border-2 border-amber-800"
+                className="max-h-11/12 absolute md:ml-40   z-100 max-w-96  border-2 border-amber-800"
                 src="../../../public/image/product 2.png"
                 alt=""
               />
               <img
-                className="max-h-96 absolute md:ml-40  z-100 max-w-96 border-2 border-amber-800"
+                className="max-h-96 absolute  z-100 max-w-96 border-2 border-amber-800"
                 src="../../../public/image/product 3.png"
                 alt=""
               />
