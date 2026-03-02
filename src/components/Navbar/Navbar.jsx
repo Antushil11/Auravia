@@ -6,25 +6,25 @@ import Container from "../../Container/Container";
 const Navbar = () => {
   const nav = (
     <>
-      <li className="text-primary-content ml-2 text-[14px]">
+      <li className="text-accent ml-2 text-[16px]">
         <NavLink herf={"/"}>Home</NavLink>
       </li>
-      <li className="text-primary-content ml-2 text-[14px]" >
+      <li className="text-accent ml-2 text-[16px]" >
         <NavLink herf={"/"}>Shop</NavLink>
       </li>
-      <li className="text-primary-content ml-2 text-[14px]">
+      <li className="text-accent ml-2 text-[16px]">
         <NavLink herf={"/"}>Collections</NavLink>
       </li>
-      <li className="text-primary-content ml-2 text-[14px]">
+      <li className="text-accent ml-2 text-[16px]">
         <NavLink herf={"/"}>Ingredients</NavLink>
       </li>
-      <li className="text-primary-content ml-2 text-[14px]">
+      <li className="text-accent ml-2 text-[16px]">
         <NavLink herf={"/"}>About</NavLink>
       </li>
-      <li className="text-primary-content ml-2 text-[14px]">
+      <li className="text-accent ml-2 text-[16px]">
         <NavLink herf={"/"}>Blog</NavLink>
       </li>
-      <li className="text-primary-content ml-2 text-[14px]">
+      <li className="text-accent ml-2 text-[16px]">
         <NavLink herf={"/"}>Contact</NavLink>
       </li>
     </>
