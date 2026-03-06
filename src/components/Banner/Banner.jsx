@@ -5,12 +5,12 @@ const Banner = () => {
   return (
     <Container>
       <div className="md:flex items-center  justify-center gap-40 border-2 border-amber-800">
-        <div className="border-2 border-amber-800  w-full h-96 flex flex-col items-center justify-center">
+        <div className="border-2 border-amber-800 gap-2 w-full h-96 flex flex-col items-center justify-center">
           <h1 className="text-6xl tinos-regular  text-neutral ">Auravia</h1>
-          <h4 className="text-4xl tinos-regular text-primary-content">Glow with Elegance</h4>
-          <p className="text-secondary-content ">Discover Luxurious Skincare & Beauty Products</p>
+          <h4 className="text-4xl tinos-regular text-neutral-content">Glow with Elegance</h4>
+          <p className="text-accent-content ">Discover Luxurious Skincare & Beauty Products</p>
 
-          <button className="btn">Shop Now</button>
+          <button className="btn ">Shop Now</button>
         </div>
 
         
