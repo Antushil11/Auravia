@@ -9,8 +9,8 @@
   default: true;
   --color-primary: oklch(16% 0.06 82);
   --color-primary-content: oklch(28% 0.09 82);
-  --color-secondary: oklch(82% 0.02 35);
-  --color-secondary-content: oklch(76% 0.06 82);
+  --color-secondary: oklch(92% 0.02 35);
+  --color-secondary-content: oklch(78% 0.06 82);
   --color-accent: oklch(64% 0.09 82);
   --color-accent-content: oklch(54% 0.09 82);
   --color-neutral: oklch(42% 0.09 82);

@@ -4,7 +4,7 @@ import Container from "../../Container/Container";
 const Banner = () => {
   return (
     <Container>
-      <div className="md:flex items-center  justify-center gap-40 border-2 border-amber-800">
+      <div className="md:flex items-center bg-gradient-to-r from-[#f6eee7] via-[#efe1d4] to-[#e6d1bf] justify-center gap-40 border-2 border-amber-800">
         <div className="border-2 border-amber-800 gap-2 w-full h-96 flex flex-col items-center justify-center">
           <h1 className="text-6xl tinos-regular  text-neutral ">Auravia</h1>
           <h4 className="text-4xl tinos-regular text-neutral-content">Glow with Elegance</h4>
