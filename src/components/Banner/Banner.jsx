@@ -8,7 +8,7 @@ const Banner = () => {
         <div className="gap-4 w-full max-h-full flex flex-col items-center justify-center">
           <h1 className="text-6xl tinos-regular  text-neutral ">Auravia</h1>
           <h4 className="text-4xl tinos-regular text-neutral-content">Glow with Elegance</h4>
-          <p className="text-accent-content tinos-regular text-xl">Discover Luxurious Skincare & Beauty Products</p>
+          <p className="text-accent-content tinos-regular text-xl text-center" >Discover Luxurious Skincare & Beauty Products</p>
 
           <button className="btn text-white p-5 tinos-regular text-xl px-10 bg-linear-to-r from-secondary-content to-accent-content">Shop Now</button>
         </div>
@@ -24,18 +24,18 @@ const Banner = () => {
             <div className="flex items-end relative">
               
               <img
-                className="max-h-11/12 ml-14 z-100 max-w-96"
+                className="max-h-11/12 md:ml-14 z-100 md:max-w-96"
                 src="../../../public/image/product 1 .png"
                 alt=""
               />
               
               <img
-                className="max-h-11/12 absolute md:ml-40   z-100 max-w-96 "
+                className="max-h-11/12 absolute md:ml-40   z-100 md:max-w-96 "
                 src="../../../public/image/product 2.png"
                 alt=""
               />
               <img
-                className="max-h-96 absolute  z-100 max-w-96 "
+                className="max-h-96 absolute  z-100 md:max-w-96 "
                 src="../../../public/image/product 3.png"
                 alt=""
               />
