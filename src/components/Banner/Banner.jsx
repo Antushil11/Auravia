@@ -10,7 +10,7 @@ const Banner = () => {
           <h4 className="text-4xl tinos-regular text-neutral-content">Glow with Elegance</h4>
           <p className="text-accent-content tinos-regular text-xl text-center" >Discover Luxurious Skincare & Beauty Products</p>
 
-          <button className="btn text-white p-5 tinos-regular text-xl px-10 bg-linear-to-r from-secondary-content to-accent-content">Shop Now</button>
+          <button className="btn text-white p-6 tinos-regular text-xl px-10 bg-linear-to-r from-secondary-content to-accent-content rounded-2xl">Shop Now</button>
         </div>
 
         
