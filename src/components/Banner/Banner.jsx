@@ -10,9 +10,9 @@ const Banner = () => {
           <h4 className="text-4xl tinos-regular text-neutral-content">Glow with Elegance</h4>
           <p className="text-accent-content tinos-regular text-xl text-center" >Discover Luxurious Skincare & Beauty Products</p>
 
-          <div className="flex gap-2">
-            <button className="btn text-white p-6 tinos-regular text-xl px-10 bg-linear-to-r from-secondary-content to-accent-content rounded-xl">Shop Now</button>
-          <button className="btn text-white p-6 tinos-regular text-xl px-10 bg-linear-to-r from-secondary-content to-accent-content rounded-xl">View Collection</button>
+          <div className=" flex-col gap-4 text-center ">
+            <button className="btn text-white mr-2 md:mt-0 mt-4 p-6 tinos-regular text-xl px-10 bg-linear-to-r from-secondary-content to-accent-content rounded-xl">Shop Now</button>
+          <button className="btn text-accent-content md:mt-0 mt-4 p-6 tinos-regular text-xl px-10 border-2 border-accent-content rounded-xl">View Collection</button>
         </div>
           </div>
 
