@@ -1,8 +1,9 @@
 import React from "react";
+import Container from "../../Container/Container";
 
 const About = () => {
   return (
-    <div>
+    <Container>
       <div>
         <h1>About Auravia</h1>
         <h2>Luxury Skincare Crafted with Care</h2>
@@ -15,7 +16,7 @@ const About = () => {
           achieve radiant, healthy skin.
         </p>
       </div>
-    </div>
+    </Container>
   );
 };
 
