@@ -5,7 +5,7 @@ const About = () => {
   return (
     <Container>
       <div className="max-w-[1500px] mx-auto">
-        <h1 className="text-4xl">About Auravia</h1>
+        <h1 className="text-6xl tinos-regular  text-neutral ">About Auravia</h1>
         <h2>Luxury Skincare Crafted with Care</h2>
         <p>
           Autavia blends nature and science to create exceptional skincare
