@@ -26,6 +26,31 @@ const About = () => {
           </button>
         </div>
         <div className="col-span-1">
+          <div className="relative w-full    ">
+          <img
+            className="h-full z-80 w-full absolute  "
+            src="../../../public/image/flower.png"
+            alt=""
+          />
+          <div className="flex items-end relative">
+            <img
+              className="max-h-11/12 md:ml-14 z-100 md:max-w-96"
+              src="../../../public/image/product 1 .png"
+              alt=""
+            />
+
+            <img
+              className="max-h-11/12 absolute md:ml-40   z-100 md:max-w-96 "
+              src="../../../public/image/product 2.png"
+              alt=""
+            />
+            <img
+              className="max-h-96 absolute  z-100 md:max-w-96 "
+              src="../../../public/image/product 3.png"
+              alt=""
+            />
+          </div>
+        </div>
           
         </div>
       </div>
